@@ -76,7 +76,7 @@ public class CustomerClient {
     }
     public void swapEvent()throws RemoteException{
 
-        System.out.println("--------------oldevent-------------");
+        System.out.println("--------------Oldevent-------------");
         String oldEventType = getCorrectEventType();
         System.out.println("Please enter the id of the oldevent:");
         String oldEventID=sc.nextLine();
